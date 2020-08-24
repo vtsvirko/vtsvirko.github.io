@@ -1,0 +1,227 @@
+/*  CSS Document  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Abel');
+
+
+h1 {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: normal;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 0 .8em 0;
+  word-spacing: 7px;
+  color: #132639;
+}
+
+h2 {
+  font-family: 'Aref Ruqaa', serif;
+  text-align: center;
+  font-size: 2.0em;
+  margin: .5em 0 .5em 0;
+  color: black;
+}
+
+#road{
+  border-bottom: 3px dashed black;
+}
+
+#runner{
+  background:url(images/1347382.png);
+  width: 280px;
+  height: 346px;
+  animation: walk 2s steps(8) infinite,
+             forward 5s linear infinite;
+}
+
+@keyframes walk{
+
+ 0%{
+  background-position: 0px;
+ }
+
+ 100%{
+  background-position: 2252px;
+ }
+}
+
+@keyframes forward{
+  0%{
+    transform: translateX(-100px);
+  }
+
+  100%{
+    transform: translateX(1000px);
+  }
+}
+
+
+/*article {
+  font-family: ;
+  margin: 20px 35px 0 35px;
+  font-size: 1.3em;
+}*/
+/*p #datetime {
+  text-align: right;
+}*/
+
+#mouse {
+  font-size: 1.5em;
+  /*background-color:red;*/
+  font-weight: bold;
+  color:#000000;
+  text-decoration:none;
+}
+
+.alert { 
+  background-color: #f44336
+  /*color: green;          */
+  /*font-family: Impact;   */
+  /*text-align: center;  */
+}
+
+body {
+  background: #000 url(images/backy.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+    }
+
+.wrapper {
+  width: 1000px;
+  padding: 0px;
+  margin: auto;
+  background-color: hsla(204, 80%, 78%, 0.6);
+  border: 1px solid #2d5986;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+section {
+  margin: 25px;
+  text-align: center;
+}
+
+
+.topnav ul {
+  list-style: none;
+  /*background:#663366;*/
+  /*display: inline-block;*/
+  text-align: center;
+  padding: o;
+  margin: o; 
+}
+.topnav li {
+  display: inline-block;
+}
+
+.topnav a {
+  /*position: fixed;*/
+  /*top: 0;*/
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  width: 100px;
+  font-family: Helvetica;
+  font-size: 17px;
+  display: block;
+/*  transition: o.4s;*/
+}
+
+.topnav a:hover {
+  background-color: #d4e6ed;
+  transition: 0.4s;
+  /*text-align: center*/
+}
+
+.topnav a.active {
+  background-color: #d4e6ed;
+  text-align: center
+  color: white;
+}
+
+footer{
+     margin-top: 15px;
+}
+
+footer p{
+     font-size:17px;
+     font-family: 'Aref Ruqaa', serif;
+     font-weight: bold;
+     text-align: right;
+     /*margin-top: 100px;*/
+     color: black; 
+     position: fixed;
+     right: 0;
+     bottom: 0;
+/*     background-color:  #e0ebeb;
+     width: 1000px;
+     padding: 0px;
+     margin: auto;
+     border: 1px solid #2d5986;*/
+}
+
+#again{
+  font-size:22px;
+  /*color: red;*/
+
+}
+
+
+input {text-align: right;}
+
+
+table{
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  color: black;
+}
+
+
+    
+#draggable {
+  width: 232px;
+  height: 309px;
+  /*background-color: lightgoldenrodyellow;*/
+}
+
+#showPartA, #showPartB{
+  padding: 5px;
+  text-align: center;
+  background-color: #79a6d2;
+  width: 500px;
+  border: 1px solid #2d5986;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+    
+#panelPartA, #panelPartB {
+  padding: 10px;
+  /*width: 500px;*/
+  display: none;
+  /*text-align: left;*/
+}
+
+tr:nth-child(even) {
+  background-color: #ff944d;
+}
+
+tr:nth-child(odd) {
+  background-color: yellow;
+}
+
+th{
+  background-color: darkred;
+  color: white;
+}
+
+#table {
+  text-align: center;
+}
+
+#out {
+  /*display: inline;*/
+  font-family: monospace;
+  /*b: #f2f2f2;*/
+}
