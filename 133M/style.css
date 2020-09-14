@@ -44,9 +44,10 @@ body {
 
 
 button{
-  background-color: blue;
+  background-color: #8a6d50;
   color: white;
   border-style: solid;
   border-color: white;
-  
+  padding: 14px 30px;
+  font-size: 17px;
 }
