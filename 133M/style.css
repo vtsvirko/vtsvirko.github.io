@@ -41,3 +41,12 @@ body {
   padding: 20px 0;
   /*font-size: 30px;*/
 }    
+
+
+button{
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  
+}

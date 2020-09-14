@@ -8,7 +8,20 @@
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+      <script>
+
+      $(document).ready(function(){ 
+        $("button").click(function(){ 
+         var h1 = $("h1");  
+         h1.animate({"font-size": "50px"}, "slow");
+         h1.animate({"font-size": "32px"}, "slow"); 
+          $("h1").css({"color": "#8a6d50"})
+          $("img").css({ "border": "5px", "border-color": "#8a6d50", "border-style": "solid"});
+        });
+      });
+      </script>
+
         <!--
         Author: Volha Tsvirko
          -->
@@ -30,6 +43,7 @@ Since I have a bio-engineering background, I wanted to apply my engineering skil
 <br>
 
 <div class="item4">
+  <!-- <button>Get Animation</button> -->
 <p>My next step is getting more knowledge in Web Development, so I can be more comfortable in Front End Programming. My ultimate goal is to gain enough knowledge, so I could get an entry-level job in any of the fields I have the expertise in; nowadays I am more inclined towards front end developer position. </p>
 
 <h2>Technologies for this class</h2>
@@ -58,7 +72,14 @@ Since I have a bio-engineering background, I wanted to apply my engineering skil
       <a href="https://www.w3schools.com/" target="_blank">w3schools</a> source is useful for learning new HTML and CSS topics. 
       </li>
 </ul>
+
+<!-- <div id="content">
+
+</div> -->
+
+<button>Get Animation</button>
 </div>
+
 
 <div class="item5">
     <footer>
@@ -67,7 +88,9 @@ Since I have a bio-engineering background, I wanted to apply my engineering skil
       
     </footer>
 </div>
-</div>    
+</div>  
+
+
   </body>
 
 </html>
