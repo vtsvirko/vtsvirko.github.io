@@ -51,3 +51,12 @@ button{
   padding: 14px 30px;
   font-size: 17px;
 }
+
+#blueButton{
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 14px 30px;
+  font-size: 17px;
+}
