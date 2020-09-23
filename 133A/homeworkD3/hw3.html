@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="D3 homework">
+<title>D3 Homework</title>
+<style>
+#chart rect{
+  fill: #4aaeea;
+}
+
+#chart text{
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end; 
+}
+
+.axis text{
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line{
+  fill: none;
+  stroke : #fff;
+  shape-rendering: crispEdges;
+}
+
+body{
+  background: #1a1a1a;
+  color : #eaeaea;
+  padding : 10px;
+}
+</style>
+</head>
+
+<body>
+<div id="chart"></div> 
+<script src="https://d3js.org/d3.v3.js"></script>
+<!-- <script src="d3.min15.js"></script>  -->
+
+<script>
+d3.json("hw3data.json", function(error, data) {
+    data.forEach(function(d) {
+        d.term = d.term;
+        d.students = +d.students;
+    });
+
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 600 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom,
+    barW = 40, barSpace = 6;
+
+var xS = d3.scale.ordinal().rangeRoundBands([0, width], .30);
+var yS = d3.scale.linear().range([height, 0]);
+var xAxis = d3.svg.axis().scale(xS);
+var yAxis = d3.svg.axis().scale(yS)
+    .orient("left")
+    .ticks(4);
+
+var graph = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr("barW", barW)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    ;
+
+  xS.domain(data.map(function(d) { return d.term; }));
+  yS.domain([0, d3.max(data, function(d) { return d.students; })]);
+
+
+  graph.append("g")
+      .attr("class", "xS axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  graph.append("g")
+      .attr("class", "yS axis")
+      .call(yAxis)
+      .append("text")
+      .text("Students");
+
+  graph.selectAll("bar")
+      .data(data)
+      .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return xS(d.term); })
+      .attr("width", xS.rangeBand())
+      .attr("y", function(d) { return yS(d.students); })
+      .attr("height", function(d) { return height - yS(d.students); });
+});
+
+</script>
+
+</body>
+</html>
