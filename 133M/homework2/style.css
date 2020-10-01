@@ -67,27 +67,27 @@ img {max-width:100%;}
 		
 	}
 	
-	div.content{
+	.content{
 		margin:15px auto;  /*this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
 		width:900px;
 	}
 				
-	div#col-right{
+	#col-right{
 		float:right;
 		width:660px
 		}
 		
-	div#sidebar-left{
+	#sidebar-left{
 		float:left;
 		padding:0 10px;
 		width:200px;	/* when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
-	div#sidebar-left a{
+	#sidebar-left a{
 		color:#445e64;	/* this redefines all links in the left sidebar to this new color, as opposed to the default blue link color */
 	}
 	
-	div#sidebar-left a:hover{
+	#sidebar-left a:hover{
 		text-decoration:none
 	}	/* when hovering over a link, in the sidebar, this turns off the underline */
 	
@@ -104,7 +104,7 @@ img {max-width:100%;}
 		font-size:11px;	/* this makes all anchor classes with .list applied 11px tall  */
 	}
 				
-	div.footer{
+	.footer{
 		background-color:#c4d5d9;
 		margin:0 auto;
 		padding:15px;
