@@ -128,7 +128,7 @@
     
 
 	@media screen and (max-width:480px) {
-	.header { display: none; }
+	/*.header { display: none; }*/
 	body, .header, .footer, .navigation {width:85%;}
 	.column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 83%; /*/33.33334375%;*/ }
