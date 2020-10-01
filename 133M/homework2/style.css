@@ -1,19 +1,20 @@
-* {
+/** {
 	margin: 0;
-	padding: 0;   
-}
+	padding: 0;  
+	border:0; 
+}*/
 
-img {max-width:100%;} 
-	/*body, h1, h2, h3, p, img, ul, li{
+/*img {max-width:100%;} */
+	body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
-	}*/
+	}
 		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
 		are reset and can now be set to whatever properties that would suit your website best. */
 	
 	body{
 		background:#eaf8fb;	/* a light blue background color. */
 		font-family:Arial, Helvetica, sans-serif; /* the font family for all text on the web page is now either arial, helvetica or a sans-serif font if those two are not available */
-		font-size:100%; /* all normal text on the web page has a base font size of 14px now */
+		font-size:81%; /* all normal text on the web page has a base font size of 14px now */
 	}
 		
 	p{
@@ -21,7 +22,7 @@ img {max-width:100%;}
 		line-height:21px; /* line height sets the vertical spacing between lines of text. */
 	}
 		
-	div.header{
+	.header{
 		background-color:#333; /* a more specific way to set a background color */
 		background-image:url(images/headerbkgd.png); /* sets a background image in the header and the position it should sit */
 		background-repeat:no-repeat; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
@@ -127,49 +128,46 @@ img {max-width:100%;}
     
 
 	@media screen and (max-width:480px) {
-	/*.header { display: none; }*/
-	body, .header, .footer, .navigation {width:100%;}
+	.header { display: none; }
+	body, .header, .footer, .navigation {width:85%;}
 	.column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
-	.navigation ul li {width: 100%; /* 33.33334375%; */}  
-	#sidebar-left, #col-right {width:100%;}
+	.navigation ul li {width: 83%; /*/33.33334375%;*/ }
+	#sidebar-left, #col-right {width:95%;}
 	}
 
 	@media screen and (min-width:481px) {
 	body, .header, .navigation, .footer {
-  	width: 100%;
+  	width: 83%;
 	}
 	.header, .navigation, .footer {
-  clear: both;
-}
+  	clear: both;
+	}
 
-.column {
-  margin: 10px 10px 0 0;
-}
+	.column {
+  	margin: 10px 10px 0 0;
+	}
 
-.navigation {
+/*.navigation {
   min-height: 25px;
-}
-
-.navigation ul li {
-  width: 33.33333%; /* 960/3 */
-}
-
-.header {
-  /*background:url(images/w.png) no-repeat;*/
-  height: 200px;
-}
-
-#sidebar-left {
-  width: 25%;
-  float: left;
-}
-
-#col-right {
-  width: 25%;
-  float: right;
-}
-
-/*#main {
-  margin: 10px   27.08333%   0   26.04166%;
 }*/
-}
+
+/*.navigation ul li {
+  width: 33.33333%;  /*960/3 */
+/*}*/
+
+	.header {
+  /*background:url(images/w.png) no-repeat;*/
+  	height: 130px;
+	}
+
+	#sidebar-left {
+  	width: 20%;
+  	float: left;
+	}
+
+	#col-right {
+  	width: 75%;
+  	float: right;
+	}
+
+	}
