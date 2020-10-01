@@ -126,7 +126,7 @@ img {max-width:100%;}
 
 	@media screen and (max-width:480px) {
 	/*.header { display: none; }*/
-	body, .content, .header, .footer, .navigation {width:100%;}
+	body, .header, .footer, .navigation {width:100%;}
 	.column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 100%; /* 33.33334375%; */}  
 	#sidebar-left, #col-right {width:100%;}
