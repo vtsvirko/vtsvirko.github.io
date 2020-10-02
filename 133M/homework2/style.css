@@ -57,7 +57,7 @@
 		background:#4a4a4a;	/* this is a dark grey background for the link */
 		color:#fff;	/* this makes the link text white */
 		-moz-border-radius:2px; 
-		webkit-border-radius:2px; 
+		-webkit-border-radius:2px; 
 		border-radius:2px;	/* these 3 lines of border-radius code make rounded corners work in firefox, safari, chrome, opera and IE9 */
 		border:1px solid #595959; /* this adds a light grey solid border of 1px width around the link */
 		padding:3px 10px;	/* as the name implies, this adds extra padding around the link, so that the borders don't bump up against the link text */
@@ -77,7 +77,7 @@
 	#col-right{
 		float:right;
 		margin: 15px auto;
-		/*padding-right: 2%;*/
+		padding-left: 15px;
 		/*padding: 0 10px;*/
 		/*width:660px;*/
 		}
@@ -115,7 +115,7 @@
 		margin:0 auto;
 		padding:15px;
 		text-align:center;
-		width:900px;
+		width:870px;
 	}
 	.float-left{
 		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
@@ -143,16 +143,16 @@
 	body, .header, .navigation, .footer {
   	width: 83%;
   	margin-left: 8%;}
-  	#sidebar-left, #col-right {
-  		width:81%;}
+  /*	#sidebar-left, #col-right {
+  		width:81%;}*/
 
 	.header, .navigation, .footer {
   	clear: both;
 	}
 
-	.column {
+	/*.column {
   	margin: 10px 10px 10px 10px;
-	}
+	}*/
 
 	.navigation {
   	min-height: 25px;
