@@ -78,14 +78,14 @@
 		float:right;
 		margin: 15px;
 
-		padding: 0 40px 0 10px;
+		/*padding: 0 40px 0 10px;*/
 		/*width:660px;*/
 		}
 		
 	#sidebar-left{
 		float:left;
 		margin: 15px 0 15px 15px;
-		padding:0 10px;
+		/*padding:0 10px;*/
 		/*width:200px;	 when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
@@ -134,7 +134,7 @@
 
 	@media screen and (max-width:480px) {
 	body, .header, .footer, .navigation {width:100%;}
-	.column {margin: 10px 10px; border-bottom:1px dashed #7b96bc;}
+	.column {margin: 10px auto; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 100%;}
 	/*#sidebar-left, #col-right {width:100%;}*/
 	}
@@ -177,6 +177,7 @@
 	#col-right {
   	width: 63%;
   	float: right;
+  	padding: 0 40px 0 10px;
 	}
 
 	}
