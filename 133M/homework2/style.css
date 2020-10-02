@@ -75,16 +75,17 @@
 				
 	#col-right{
 		float:right;
-		margin: 15px auto;
+		margin: 15px;
 		/*padding-left: 15px;*/
 		padding:0 10px;
+		/*width:660px;*/
 		}
 		
 	#sidebar-left{
 		float:left;
-		margin: 15px auto;
+		margin: 15px;
 		padding:0 10px;
-		/*width:200px;	 when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
+		/*width:200px;*/	 /*when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
 	#sidebar-left a{
