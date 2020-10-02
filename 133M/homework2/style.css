@@ -134,7 +134,7 @@
 
 	@media screen and (max-width:480px) {
 	body, .header, .footer, .navigation {width:100%;}
-	.column {margin: 10px auto; border-bottom:1px dashed #7b96bc;}
+	.column {margin: 10px 10px; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 100%;}
 	/*#sidebar-left, #col-right {width:100%;}*/
 	}
