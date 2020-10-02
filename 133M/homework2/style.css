@@ -131,8 +131,8 @@
 	/*.header { display: none; }*/
 	body, .header, .footer, .navigation {width:100%;}
 	.column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
-	.navigation ul li {width: 83%;}
-	#sidebar-left, #col-right {width:83%;}
+	.navigation ul li {width: 100%;}
+	#sidebar-left, #col-right {width:100%;}
 	}
 
 	@media screen and (min-width:481px) {
@@ -150,9 +150,10 @@
   	margin: 10px 10px 0 0;
 	}
 
-/*.navigation {
+.navigation {
   min-height: 25px;
-}*/
+  margin-left: 0%;
+}
 
 /*.navigation ul li {
   width: 33.33333%;  /*960/3 */
@@ -172,7 +173,7 @@
 	}
 
 	#col-right {
-		/*margin-right: 20%;*/
+	/*margin-left: : 1%;*/
   	width: 65%;
   	float: right;
 	}
