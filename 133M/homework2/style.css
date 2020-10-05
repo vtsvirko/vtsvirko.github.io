@@ -1,9 +1,3 @@
-/** {
-	margin: 0;
-	padding: 0;  
-	border:0; 
-}*/
-
 /*img {max-width:100%;} */
 	body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
@@ -15,7 +9,6 @@
 		background:#eaf8fb;	/* a light blue background color. */
 		font-family:Arial, Helvetica, sans-serif; /* the font family for all text on the web page is now either arial, helvetica or a sans-serif font if those two are not available */
 		font-size:82%; /* all normal text on the web page has a base font size of 14px now */
-	    /*width: 81%;*/
 	}
 		
 	p{
@@ -72,20 +65,7 @@
 		width:900px;
 	}*/
 				
-	#col-right{
-		float:right;
-		margin: 15px;
 
-		/*padding: 0 40px 0 10px;*/
-		/*width:660px;*/
-		}
-		
-	#sidebar-left{
-		float:left;
-		margin: 15px 0 15px 15px;
-		/*padding:0 10px;*/
-		/*width:200px;	 when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
-		}
 		
 	#sidebar-left a{
 		color:#445e64;	/* this redefines all links in the left sidebar to this new color, as opposed to the default blue link color */
@@ -132,32 +112,34 @@
 	body, .header, .footer, .navigation {width:100%;}
 	.column {margin: 10px auto; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 100%;}
-	/*#sidebar-left, #col-right {width:100%;}*/
+	.header, .navigation, .footer {
+	margin-left:10px; 	
+	}	
 	}
 
 	@media screen and (min-width:481px) {
 	body, .header, .navigation, .footer {
   	width: 83%;
   	margin-left: 8%;}
-  /*	#sidebar-left, #col-right {
-  		width:81%;}*/
 
 	.header, .navigation, .footer {
   	clear: both;
 	}
-
-	/*.column {
-  	margin: 10px 10px 10px 10px;
-	}*/
+		
+	#col-right{
+		float:right;
+		margin: 15px;
+		}
+		
+	#sidebar-left{
+		float:left;
+		margin: 15px 0 15px 15px;
+		}
 
 	.navigation {
   	min-height: 25px;
   	margin-left: 0%;
 }
-
-/*.navigation ul li {
-  width: 33.33333%;  /*960/3 */
-/*}*/
 
 	.footer {
 				padding:15px;
