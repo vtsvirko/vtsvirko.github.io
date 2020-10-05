@@ -60,24 +60,15 @@
 		
 	}
 	
-	/*.content{
-		margin:15px auto;  this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. 
-		width:900px;
-	}*/
 				
 	#col-right{
 		float:right;
 		margin: 15px;
-
-		/*padding: 0 40px 0 10px;*/
-		/*width:660px;*/
 		}
 		
 	#sidebar-left{
 		float:left;
 		margin: 15px 0 15px 15px;
-		/*padding:0 10px;*/
-		/*width:200px;	 when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
 	#sidebar-left a{
@@ -125,15 +116,15 @@
 	body, .header, .footer, .navigation {width:100%;}
 	.column {margin: 10px auto; border-bottom:1px dashed #7b96bc;}
 	.navigation ul li {width: 100%;}
-	/*#sidebar-left, #col-right {width:100%;}*/
+	.header, .navigation, .footer{
+	text-align: center;	
+	}
 	}
 
 	@media screen and (min-width:481px) {
 	body, .header, .navigation, .footer {
   	width: 83%;
   	margin-left: 8%;}
-  /*	#sidebar-left, #col-right {
-  		width:81%;}*/
 
 	.header, .navigation, .footer {
   	clear: both;
@@ -149,18 +140,11 @@
 		margin: 15px 0 15px 15px;
 		}
 
-	/*.column {
-  	margin: 10px 10px 10px 10px;
-	}*/
-
 	.navigation {
   	min-height: 25px;
   	margin-left: 0%;
 }
 
-/*.navigation ul li {
-  width: 33.33333%;  /*960/3 */
-/*}*/
 
 	.footer {
 				padding:15px;
