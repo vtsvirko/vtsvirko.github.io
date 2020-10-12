@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Working with Grids</title>
+   <meta charset="utf-8">
+   <meta name="description" content="working with grids in CNIT 132A">
+   <style>
+      *{
+        margin: 0;
+        font-weight: bold;
+    }
+      .box{
+        display: flex;
+      }
+      .header, .aside1, .aside2, .footer {
+        text-align: center;
+        padding: 10px 0;
+      }  
+      .aside1, .aside2, .main, .column {
+        width: 25%;
+
+      }
+      .main, .column{
+          padding: 20px 5px 20px 10px;
+      }
+      .header {
+         background-color: #ff6666;
+
+	  }
+	  .aside1 {
+	     background-color: #ffff66;
+	  }
+	  .main {
+         background-color: #000099;
+         color:white;
+	  }
+	  .column {
+         background-color: #ff99dd;
+         color: #000099;
+	  }
+	  .aside2 {
+	     background-color: #ffccdd;
+      }
+      .footer {
+         background-color: #99ffbb;
+	  }
+   </style>
+</head>
+<body>
+
+  <div class="header"><p>Name of Company</p></div>
+  <div class="box">
+  <div class="aside1"><p> This is aside1 </p></div>
+  <div class="main"><p>This is the main article of my page! this is the main content of the page In a 3-column loyout, it should be shown in the middle between the aside 1 and aside 2</p></div>
+  <div class="column">This column was created to have some content as a chalange to adapt the old three column loyout to a 4-column loyout</div>
+  <div class="aside2">This is aside2</div>
+  </div>
+  <div class="footer"><p>This is the footer <br> Copyright &copy; Volha Tsvirko, 2020 </div>
+
+</body>
+</html>

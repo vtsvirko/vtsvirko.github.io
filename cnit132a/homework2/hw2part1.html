@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Working with Grids</title>
+   <meta charset="utf-8">
+   <meta name="description" content="working with grids in CNIT 132A">
+   <style>
+	   .search { grid-area: search; }
+	   .links { grid-area: links; }
+	   .messages { grid-area: messages; }
+	   .news { grid-area: news; }
+      .page-layout {
+		  
+         display: grid; 
+		 grid-template-areas:'search search links links '
+		 					 'search search links links'
+							 'messages messages news news'
+							 'messages messages news news';
+		grid-template-rows: 150px 150px 150px 150px;
+
+      }
+
+
+	  .news, .links, .search, .messages {
+	     text-align: center;
+		 font-weight: bold;
+	  }
+	  .news {
+	     background-color: cyan;
+	  }
+	  .links {
+	     background-color: orange;
+	  }
+	  .search {
+	     background-color: violet;
+	  }
+	  .messages {
+	     background-color: red;
+	  }
+   </style>
+</head>
+<body>
+<div class="page-layout">
+  <div class="news">News</div>
+  <div class="links">Links</div>
+  <div class="search">Search</div>
+  <div class="messages">Messages</div>
+</div>
+</body>
+</html>
