@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Great movie titles</title>
+   <meta name="description" content="a list of great movie titles, name of director and trailer">
+   <meta charset="utf-8">
+   <style>
+     body { background-color: #DEB887; color: #A52A2A; }
+     header {width: 60%; background-image: url(banner.png); margin: 0 auto; text-align: center; border-shadow: 5px 5px 5px gray; font-size: 1.5rem; color: black;}
+	  section { width: 80%; margin: 0 auto; border: 2px solid #D2691E; padding: 0 10px;}
+     footer {width: 60%; margin: 10px auto; padding: 3px 0; text-align:center; background-color: #A52A2A; color:white; font-size: 0.9rem;}	 
+	 footer img {float:left; margin: 0 5px 5px 0;}
+   </style>
+</head>
+<body>
+<header>
+<h1>Great Movies</h1>
+<h2>Great Directors</h2>
+</header>
+<div itemscope itemtype="https://schema.org/Movie">
+
+<section>
+  <h3><span itemprop="name">Avatar</span></h3>
+  <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+  <p>Director: 
+  <span itemprop="name">James Cameron</span> (born <span itemprop="birthDate">August 16, 1954</span>)</p></div>
+  <p>Type: <span itemprop="genre">Science fiction</p>
+  <p>Release Date: <span itemprop="datePublished"> December 18, 2009</span></p>
+</section>
+
+<section>
+  <h3><span itemprop="name">Star Wars</span>: Episode <span itemprop="episodeNumber">VII</span></h3>
+  <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+  <p>Director: 
+  <span itemprop="name">J. J. Abrams</span> (born <span itemprop="birthDate">June 27, 1966</span>)</p></div>
+  <p>Type: <span itemprop="genre">Science fiction</span></p>
+  <p>Release Date: <span itemprop="datePublished"> December 18, 2015</span></p>
+</section>
+
+<section>
+  <h3><span itemprop="name">Titanic</span></h3>
+  <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+  <p>Director: 
+  <span itemprop="name">James Cameron</span> (born <span itemprop="birthDate">August 16, 1954</span>)</p></div>
+  <p>Type: <span itemprop="genre">Science fiction</p>
+  <p>Type: <span itemprop="genre">Drama</span></p>
+  <p>Release Date: <span itemprop="datePublished">December 19, 1997</span></p>
+</section>
+
+<section>
+  <h3><span itemprop="name">Schindler's List</span></h3>
+  <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+  <p>Director: 
+  <span itemprop="name">Steven Spielberg </span> (born <span itemprop="birthDate">December 18, 1946</span>)</p></div>
+  <p>Type: <span itemprop="genre">Drama</span></p>
+  <p>Release Date: <span itemprop="datePublished"> December 15, 1993</span></p>
+</section>
+</div>
+<footer>
+  <img src="movielogo.png" alt="picture of an old black camera on a white background"> 
+  <p>List made by CNIT 132A class at CCSF</p>
+  <p>Copyright &copy; 2017</p>
+</footer>  
+</body>
+</html>
