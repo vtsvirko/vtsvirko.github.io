@@ -22,19 +22,15 @@
         <li class="nav-item" >
           <a class="nav-link" href="index.html">Home </a>
         </li>
-        
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
-        
         <li class="nav-item">
           <a class="nav-link" href="product.html">Products</a>
         </li>
-        
         <li class="nav-item active">
           <a class="nav-link " href="location.html">Location <span class="sr-only">(current)</span></a>
         </li>
-        
         <li class="nav-item">
           <a class="nav-link" href="extra.html">Extra</a>
         </li>
@@ -44,9 +40,49 @@
 
 <h1 style="text-align: center; color: #003d66;">ABC Toys</h1>
 <div class="container">
-<h3>Contact Us</h3>
+<h3>Location</h3>
+<p>Click the button to get your coordinates.</p>
 
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
 </div>
+
+<!-- </div> -->
 
 </body>
 
