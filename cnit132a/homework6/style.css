@@ -34,17 +34,13 @@ a
   padding-left :40px;
 
 }
-
 a:hover{
-  color: rgb(199, 7, 49);
-  font-weight: bold;
-
+    color: rgb(199, 7, 49);
+    font-weight: bold;
 }
 .active{
-  color: blue;
-
+    color: blue;
 }
-
 .nav-menu {
   list-style-type: none;
   margin: 0;
@@ -89,4 +85,4 @@ ul { list-style-type: none; }
 .grid-container > div {
   text-align: justify;
   padding: 20px 0;
-} 	
+}
