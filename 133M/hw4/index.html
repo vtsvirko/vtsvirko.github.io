@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#ffd37c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 4 — Offline, Storage & PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="app.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="launcher-icon-192.png">
+    <script>
+        function change(color){
+            document.getElementsByTagName("html")[0].className = color;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Homework 4 — Offline, Storage & PWA</h1>
+    </header>
+    
+    <main>
+        <h2>Main Characteristics of a Progressive Web Application (PWA)</h2>
+        <p>
+            A progressive web app (PWA) is the set of mobile web application development techniques that entails building apps that feel and look like native ones.</p>
+
+        <p>Connectivity independence. Progressive web applications can work both offline and on low-quality networks.</p>
+
+        <p>App-like interface. These apps mimic navigation and interactions of native apps.</p>
+        
+        <p>Push notifications. If used as a part of a good messaging strategy, push notifications can keep customers interested, motivating them to open and use an app more.</p>
+        
+        <p>Self-updates. Able to update themselves automatically, apps stay fresh.</p>
+        
+        <p>Safety. These apps are served through HTTPS, so unauthorized users can’t access their content.</p> 
+        <h2>You Can Choose Background Color!</h2>
+
+        <div class="button"  >  
+                <button class="blue" onClick="change(this.className);"> Blue </button>
+                
+                <button class="gold" onClick="change(this.className);"> Gold </button>
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+html {
+    background: rgb(219, 218, 195);
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+.blue {
+    background: rgb(178,207,222);
+    background: radial-gradient(circle, rgba(178,207,222,1) 0%, rgba(55,132,212,1) 100%);
+}
+
+.gold {
+    background: rgb(222,208,178);
+    background: radial-gradient(circle, rgba(222,208,178,1) 0%, rgba(212,175,55,1) 100%);
+    }
+
+main{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button:hover {cursor: pointer;}
+
+button {
+    font-size: 1.6rem;
+    display: block;
+    padding: .5em;
+    border-radius: 60%;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly; 
+}
