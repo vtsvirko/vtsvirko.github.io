@@ -1,5 +1,5 @@
 html {
-    background: rgb(219, 218, 195);
+    background: white;
     background-attachment: scroll;
     background-size: cover;
 }
@@ -10,13 +10,11 @@ body {
 }
 
 .blue {
-    background: rgb(178,207,222);
-    background: radial-gradient(circle, rgba(178,207,222,1) 0%, rgba(55,132,212,1) 100%);
+    background-image: url("lightblue.jpg");
 }
 
 .gold {
-    background: rgb(222,208,178);
-    background: radial-gradient(circle, rgba(222,208,178,1) 0%, rgba(212,175,55,1) 100%);
+    background-image: url("lightgold.jpg");
     }
 
 main{

@@ -11,7 +11,9 @@ self.addEventListener('install', function(e) {
                 './',
                 'style.css',
                 'app.ico',
-                'index.html'
+                'index.html',
+                'lightblue.jpg',
+                'lightgold.jpg'
             ]).then(function() {
                 self.skipWaiting();
             });
@@ -33,5 +35,6 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
 
 
