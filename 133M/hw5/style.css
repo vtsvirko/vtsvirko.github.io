@@ -1,0 +1,47 @@
+html {
+    background: rgb(170,118,25);
+background: linear-gradient(90deg, rgba(170,118,25,1) 0%, rgba(193,163,36,1) 35%, rgba(161,182,84,1) 65%, rgba(181,202,98,1) 89%);
+    background-attachment: scroll;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+.blue {
+    background-image: url("lightblue.jpg");
+}
+
+.gold {
+    background-image: url("lightgold.jpg");
+    }
+
+main{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button:hover {cursor: pointer;}
+
+button {
+    font-size: 1.6rem;
+    display: block;
+    padding: .5em;
+    border-radius: 60%;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly; 
+}
