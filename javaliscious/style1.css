@@ -12,19 +12,17 @@ body{
 .my-dark{
     color: rgb(32, 25, 11);
 }
+
 .bg-nav {
   background: rgb(173,160,140);
   background: linear-gradient(90deg, rgb(151, 133, 106) 0%, rgba(143,125,81,1) 29%, rgba(99,86,50,1) 51%, rgba(69,53,9,1) 89%);
   font-family: 'Montserrat', sans-serif;  
-
-  
-
 }
+
 .bg-center{
   text-align: center;  
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .logo{
     color: #fff;
@@ -32,7 +30,6 @@ body{
     font-size: 30px;
     /* font-family: 'Montserrat', sans-serif; */
 }
-
 
 .nav-item-modified{
     font-size: 20px;
@@ -45,6 +42,9 @@ body{
     font-weight: 500;
 }
 
+.custom-hover a:hover{
+    color: rgb(32, 25, 11) !important;
+}
 .active-custom a{
     color: #ffc107 !important;
 }
@@ -72,7 +72,6 @@ body{
     width: 90%;
 }
 
-
 .order-button{
     color: #fff;
     background-color:  rgba(69,53,9,1);
@@ -93,8 +92,6 @@ body{
     cursor: pointer;
 
 }
-
-
 
 .hours{
     text-align: center;  
