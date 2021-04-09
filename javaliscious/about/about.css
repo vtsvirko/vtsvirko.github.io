@@ -1,0 +1,40 @@
+.about{
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+    margin-bottom: 50px;
+    color: rgb(32, 25, 11);
+}
+.about-image{
+    margin-top: 20px;
+    width: 60%;
+    height: 90%;
+}
+.custom-caption{
+    padding: 5px 5px 2px 8px;
+    color: rgb(32, 25, 11);
+    background-color:  rgba(143,125,81,1);
+    font-size: 18px;
+}
+
+.custom-caption:hover {
+     color: #fff; 
+     background-color: rgba(69,53,9,1);
+     transition: all 0.3 ease;
+     text-decoration:none; 
+     cursor:pointer;  
+     
+}
+
+.about-text h2{
+    text-align: center;
+}
+
+.team {
+    color: rgb(32, 25, 11);
+}
+
+.team h2{
+    text-align: center;
+}
+
