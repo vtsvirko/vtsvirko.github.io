@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    background-color: #eee;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+/* @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap'); */
+
+body{
+    color: #000000;
+    background-color:#c2bd95;
+    padding-top: 70px; 
+    /* font-family: 'Kiwi Maru', serif; */
+}
+
+.my-dark{
+    color: rgb(32, 25, 11);
+}
+
+.bg-nav {
+  background: rgb(173,160,140);
+  background: linear-gradient(90deg, rgb(151, 133, 106) 0%, rgba(143,125,81,1) 29%, rgba(99,86,50,1) 51%, rgba(69,53,9,1) 89%);
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.bg-center{
+  text-align: center;  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.nav-item-modified{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link-custom{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.custom-hover a:hover{
+    color: rgb(32, 25, 11) !important;
+}
+.active-custom a{
+    color: #ffc107 !important;
+}
+.location .cart{
+    font-size: 25px;
+}
+
+
+
+/*--------------Back button-----------------------*/
+.round_button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    z-index: 100;
+  }
+  
+  .round_button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .round_button {
+    background-color: #ddd;
+    color: black;
+  }
+  .round_button {
+    border-radius: 50%;
+  }
+
+
+/*----------Add To Cart Button-----*/
+.btn {
+  background-color: #ddd; 
+  color: black; 
+  display: inline-block;
+    padding: 8px 16px;
+    z-index: 100;
+}

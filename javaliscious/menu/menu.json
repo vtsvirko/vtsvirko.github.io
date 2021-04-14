@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "name": "House Coffee",
+        "description": "A premium blend of smokey rich, fair trade and organic coffee.",
+        "cupSize": ["Sm","Md","Lg"],
+        "cream": ["0","1","2","3"],
+        "spoonSugar": ["0","1","2","3"],
+        "type": ["Hot","Iced"],
+        "price": ["2.25","3.00","3.25"],
+        "image_url": "img/coffee.png",
+        "url": "coffee.html"
+    },
+
+    {
+        "id": 2,
+        "name": "Americano",
+        "description": "Our dark rich espresso culminating in this wonderfully rich cup with depth and nuance.",
+        "cupSize": ["Sm","Md","Lg"],
+        "cream": ["0","1","2","3"],
+        "spoonSugar": ["0","1","2","3"],
+        "type": ["Hot","Iced"],
+        "price": ["3.25","4.00","4.25"],
+        "image_url": "img/americano.png",
+        "url": "americano.html"
+    },
+
+    {
+        "id": 3,
+        "name": "Latte",
+        "description": "Our dark rich espresso balanced with steamed milk and a light layer of foam.",
+        "cupSize": ["Sm","Md","Lg"],
+        "milk": ["Whole","LowFat","Nonfat","Almond"],
+        "spoonSugar": ["0","1","2","3"],
+        "type": ["Hot","Iced","Blended"],
+        "price": ["4.25","5.00","5.25"],
+        "image_url": "img/latte.png",
+        "url": "latte.html"
+    },
+
+    {
+        "id": 4,
+        "name": "Cappuccino",
+        "description": "Our dark, rich espresso and steamed milk topped with a smoothed and stretched layer of thick milk foam.",
+        "cupSize": ["Sm","Md","Lg"],
+        "milk": ["Whole","LowFat","Nonfat","Almond"],
+        "spoonSugar": ["0","1","2","3"],
+        "type": ["Hot","Iced"],
+        "price": ["4.25","5.00","5.25"],
+        "image_url": "img/cappuccino.png",
+        "url": "cappuccino.html"
+    },
+
+    {
+        "id": 5,
+        "name": "Mocha",
+        "description": "Our full-bodied espresso combined with mocha sauce and steamed milk, topped with whipped cream.",
+        "cupSize": ["Sm","Md","Lg"],
+        "milk": ["Whole","LowFat","Nonfat","Almond"],
+        "type": ["Hot","Iced","Blended"],
+        "whipCream": ["Yes","No"],
+        "price": ["5.25","6.00","6.25"],
+        "image_url": "img/mocha.png",
+        "url": "mocha.html"
+    },
+
+    {
+        "id": 6,
+        "name": "Bagel",
+        "description": "Whether eaten on their own or with a schmear of cream cheese, these bagels are a true taste of New York!",
+        "type": ["Plain","Popppy Seed","Cinnamon and Raisin"],
+        "spread": ["Butter","Cream Cheese","Peanut Butter"],
+        "jam": ["Strawberry","Grape","Peach"],
+        "toasted": ["Yes", "No"],
+        "price": 3.50,
+        "image_url": "img/bagels.png",
+        "url": "bagels.html"
+    },
+
+    {
+        "id": 7,
+        "name": "Crousant",
+        "description": "Our classic croissant is made with real butter to create a golden, crunchy top with soft, flaky layers inside. ",
+        "type": ["Plain","Choclate","Almond"],
+        "toasted": ["Yes","No"],
+        "price": 3.25,
+        "image_url": "img/crousants.png",
+        "url": "crousants.html"
+    },
+
+    {
+        "id": 8,
+        "name": "Muffin",
+        "description": "Our delicious muffins are both sweet and moist whether you enjoy chocolate chip, blueberry , or pumkin",
+        "type": ["Choclate Chip","Blueberry Muffin","Pumkin"],
+        "heated": ["Yes","No"],
+        "price": 2.50,
+        "image_url": "img/muffins.png",
+        "url": "muffins.html"
+    },
+
+    {
+        "id": 8,
+        "name": "Scone",
+        "description": "A traditional scone with chocolate chips, blueberries, or pumpkin is a wholesome treat.",
+        "type": ["Choclate Chip","Blueberry","Pumkin"],
+        "heated": ["Yes","No"],
+        "price": 3.00,
+        "image_url": "img/scones.png",
+        "url": "scones.html"
+    }
+]
+
+
+
