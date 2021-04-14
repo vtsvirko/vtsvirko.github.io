@@ -1,5 +1,5 @@
 async function renderCards() {
-    const response = await fetch('./menu/menu.json');
+    const response = await fetch('menu.json');
     const menu = await response.json();  
 
     document.getElementById("menu").innerHTML = `

@@ -13,7 +13,9 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="slctCrd.css">
+    <link rel="stylesheet" href="../style1.css">
+    
+    
 </head>
 <body>
     <nav class="navbar navbar-dark bg-nav navbar-expand-lg fixed-top">
@@ -63,12 +65,17 @@
         </div>
       </nav>
 
-      <section>
+
+
+
+
+
+   
     <div class="selected-card">
         <div class="card">
-            <img class="card-img-top" id="img" src="./img/coffee.png" alt="">
+            <img class="card-img-top" id="img" src="../menu/img/coffee.png" alt="">
             <div class="card-body">
-                <a href="menu.html" class="round_button">&#8249;</a>
+                <a href="../menu/menu.html" class="round_button">&#8249;</a>
                 <span class="drink_name">House Coffee</span>
                 <p>2 Shots of espresso poured over steamed milk</p>
                 <hr>
@@ -79,19 +86,19 @@
                             <p>Customize</p>
                             <div class="options d-flex flex-fill">
                                 <select id="size">
-                                    <option selected>Size</option>
+                                    <option>Size</option>
                                     <option value="small">Small(12oz)__________ $2.25</option>
                                     <option value="medium">Medium (16oz)________$3.00</option>
                                     <option value="large">Large (20oz)__________ $3.25</option>
                                 </select>
                                 <select id="cream">
-                                    <option selected>Cream</option>
+                                    <option>Cream</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                 </select>
                                 <select id="sugar">
-                                    <option selected>Sugar</option>
+                                    <option>Sugar</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -129,14 +136,37 @@
                         </tbody>
                     </table>
                 </div>
-                <button class="btn btn--primary" onclick="customDrink()"><i
+                <button class="btn btn--primary"><i
                 class="fas fa-shopping-cart pr-2"></i>Add To Cart</button>
                 
             </div>
         </div>
     </div>
 </div>
-</section>
+<script type="text/javascript">
+    function customDrink(){
+        
+        var size = document.getElementById("size");
+        selectedValue = size.value;
+        var cream = document.getElementById("cream");
+        selectedValue = cream.value;
+        var sugar  = document.getElementById("sugar");
+        selectedValue = sugar.value;
+        var drink_name = (document.getElementById("img").src.split("/").pop().split(".")[0]);
+        var toppings = document.getElementsByClassName("form-check-input").value;
+        var quantity = document.getElementsByTagName("quantity");
+        var customDrink = {
+            drink: drink_name,
+            size: size.value,
+            amountCream: cream.value,
+            amountSugar: sugar.value,
+            toppings: toppings,
+            quantity: quantity
+        };
+        alert(size);
+        return customDrink;
+    }
+</script>
 </body>
 </html>
 
