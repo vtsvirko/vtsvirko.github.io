@@ -13,11 +13,12 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style1.css">
     <link rel="stylesheet" href="slctCrd.css">
 </head>
 <body>
     <nav class="navbar navbar-dark bg-nav navbar-expand-lg fixed-top">
-        <a class="navbar-brand logo font-italic text-warning" href="index.html">
+        <a class="navbar-brand logo font-italic text-warning" href="../index.html">
             <i class="fa fa-coffee my-dark"></i>
            Javaliscious
         </a>
@@ -26,47 +27,50 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end bg-center" id="navbar-list-6">
           <ul class="navbar-nav">
-            <li class="nav-item active active-custom custom-hover">
+            <!-- <li class="nav-item  custom-hover">
               <a class="nav-link nav-link-custom" href="index.html">HOME<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item custom-hover">
-                <a class="nav-link nav-link-custom" href="menu/menu.html">MENU</a>
+            </li> -->
+            <li class="nav-item active-custom custom-hover">
+                <a class="nav-link nav-link-custom" href="../menu/menu.html">MENU</a>
               </li>
-            <li class="nav-item custom-hover">
-              <a class="nav-link nav-link-custom" href="about/about.html">ABOUT</a>
+            <li class="nav-item active  custom-hover">
+              <a class="nav-link nav-link-custom" href="../about/about.html">ABOUT</a>
             </li>
             <li class="nav-item custom-hover">
-              <a class="nav-link nav-link-custom" href="giftCard/giftcard.html">GIFT CARD</a>
+              <a class="nav-link nav-link-custom" href="../giftCard/giftcard.html">GIFT CARD</a>
             </li>
             <li class="nav-item custom-hover">
-                <a class="nav-link order nav-link-custom" href="order/order.html">ORDER</a>
+                <a class="nav-link order nav-link-custom" href="../order/order.html">ORDER</a>
             </li>
             <li class="nav-item custom-hover">
-                <a class="nav-link signin nav-link-custom" href="signIn/signin.html">SIGN IN</a>
+                <a class="nav-link signin nav-link-custom" href="../signIn/signin.html">SIGN IN</a>
             </li>
             <li class="nav-item custom-hover">
-                <a class="nav-link register nav-link-custom" href="register/register.html">REGISTER</a>
+                <a class="nav-link register nav-link-custom" href="../register/register.html">REGISTER</a>
             </li>
-
+    
             <li class="nav-item nav-item-modified custom-hover">
-                <a class="nav-link location nav-link-custom " href="location/location.html">
+                <a class="nav-link location nav-link-custom " href="../location/location.html">
                     <i class="fa fa-map-marker"></i>
                 </a>
             </li>
-
+    
             <li class="nav-item nav-item-modified custom-hover">
-                <a class="nav-link nav-link-custom cart" href="shoppingcart.html"> 
+                <a class="nav-link nav-link-custom cart" href="../shoppingCart/shoppingcart.html"> 
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </a>
             </li>  
           </ul>
         </div>
       </nav>
-    <div class="selected-card">
+    
+      <section class="selection-custom">
+      <div class="selected-card selected-card-custom">
+          
         <div class="card">
-            <img class="card-img-top" src="./menu/img/crousants.png" alt="">
+            <img class="card-img-top" src="../menu/img/crousants.png" alt="">
             <div class="card-body">
-                <a href="./menu/menu.html" class="round_button">&#8249;</a>
+                <a href="../menu/menu.html" class="round_button">&#8249;</a>
             <span class="food_name">Crousants</span>
             <hr>
             
@@ -100,6 +104,98 @@
                 class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
         </div>
     </div>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row ">         
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center text-md-left">
+                    <div class="py-2 my-2">
+                        <div>
+                        <h3 class="my-2 text-white">About<span class="mx-2 font-italic text-warning ">Javaliscious</span></h3>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+                    
+                    <p class="text-white my-2" >Javaliscious offers only fresh and delicious coffee. Culture in every cup!
+                    </p>
+                        <a href="#"><i class="fa fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-2x text-warning mx-3"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x text-info mx-3"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x text-dark mx-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-white text-center text-md-left">
+                    <div class="py-2 my-2">
+                        <div>
+                            <h3 class="my-2 text-white">Contact Us</h3>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+  
+                            <p><i class="fa fa-phone" aria-hidden="true"></i> 
+                                <a href="tel:+1415-678-9030">+1 (415) 678 9030</a></p>
+                            
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:support@javaliscious.com">support@javaliscious.com</a></p>
+                        
+                            <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                                <a href="https://www.google.com/maps/place/CCSF+Cafeteria/@37.7241004,-122.4531143,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7c2b359aab41:0x12f64060eb1c664a!8m2!3d37.7240962!4d-122.4509256" target="_blank">Find us</a>
+                            </p>
+                        </div>  
+                    </div>  
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-white text-center text-md-left">
+                    <div class="py-2 my-2">
+                        <div>
+                            <h3 class="my-2 text-white">Customer Service</h3>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+                            <p><a href="#" target="_blank">Contact Us</a><br>
+                                <a href="#" target="_blank">Ordering & Payment</a><br>
+                                <a href="#" target="_blank">Shipping</a><br>
+                                <a href="#" target="_blank">Returns</a><br>
+                                <a href="#" target="_blank">FAQ</a><br>
+                                </p> 
+                        </div>  
+                    </div>  
+                </div>
+  
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-white text-center text-md-left">
+                    <div class="py-2 my-2">
+                        <div>
+                            <h3 class="my-2 text-white">Information</h3>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+                            <p class="footer-links">
+                                <a class="text-white" href="#">Work With Us</a>
+                                |<br>
+                                <a class="text-white" href="#">Privacy Policy</a>
+                                |<br>
+                                <a class="text-white" href="#">Terms & Conditions </a>
+                                |<br>
+                                <a class="text-white" href="#"> Press Enquiries </a>
+                                |<br>
+                            </p>
+                            <p class="text-light py-2 mb-4">&copy;2021 Javaliscious</p>
+                        </div>  
+                    </div>  
+                </div>
+                <div class="col-lg-6 col-md-5 mb-4 mb-md-0 text-white my-2 text-center text-md-left ">
+                    <h3 class="my-2 text-white">Subscribe to <span class="mx-2 font-italic text-warning ">Javaliscious</span> via Email</h3>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+  
+                    <div class="py-2">
+                            <p class="text-white my-2">Find out what we can do for your business or home.</p>
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="input-group-md input-group mb-3 "><input type="text" class="form-control" placeholder="Enter your e-mail address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <div class="input-group-append"><button class="btn btn-warning" type="button" id="button-addon2"> <b>Submit</b></button></div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+  
+      </footer>
+    <div id='toTop'><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <script src="../script.js"></script>
 </body>
 </html>
 
