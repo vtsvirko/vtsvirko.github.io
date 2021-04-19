@@ -13,7 +13,7 @@
 .custom-caption{
     padding: 5px 5px 2px 8px;
     color: rgb(32, 25, 11);
-    background-color:  rgba(143,125,81,1);
+    background-color:#eeeeed;
     font-size: 18px;
 }
 
@@ -38,3 +38,10 @@
     text-align: center;
 }
 
+@media (max-width: 991px){
+    .col-5{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
