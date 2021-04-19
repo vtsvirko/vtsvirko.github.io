@@ -3,8 +3,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap'); */
 
 body{
-    color: #fff;
-    background-color:#c2bd95;
+    color:  rgb(32, 25, 11);
+    /* background-color:#c2bd95; */
     padding-top: 70px; 
     /* font-family: 'Kiwi Maru', serif; */
 }
@@ -45,6 +45,7 @@ body{
 .custom-hover a:hover{
     color: rgb(32, 25, 11) !important;
 }
+
 .active-custom a{
     color: #ffc107 !important;
 }
@@ -142,7 +143,7 @@ body{
     padding: 10px 20px;
     border-radius: 6px;
     transition: all 0.3 ease;
-    background-color:#c2bd95;
+    background-color:#eeeeed;
 }
 
 .specials .specials-content .specials-card:hover{
@@ -234,6 +235,17 @@ hr{
     .signin, .register{
         margin-right: 7px;
     }
+    /* .order-button{
+        margin: 0 190px 20px 190px ;
+    } */
+}
+@media(min-width: 575px){
+    .homeImage{
+        margin-left: 25px;
+    }
+    .order-button{
+        margin: 0 190px 20px 190px ;
+    }
 }
 
 @media (max-width: 947px){
@@ -249,6 +261,9 @@ hr{
         font-size: 30px;
         font-weight: 500;
     }
+    /* .order-button{
+        margin: 0 80px 20px 80px ;
+    } */
 }
 
 @media (max-width: 690px){
