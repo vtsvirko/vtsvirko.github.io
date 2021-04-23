@@ -12,18 +12,17 @@
 }
 .custom-caption{
     padding: 5px 5px 2px 8px;
-    color: rgb(32, 25, 11);
-    background-color:#eeeeed;
+    color: #676363;
+    background-color:#FFFCF8;
     font-size: 18px;
 }
 
 .custom-caption:hover {
-     color: #fff; 
-     background-color: rgba(69,53,9,1);
+     color: #5E4B3C; 
+     background-color: #d6cec3;
      transition: all 0.3 ease;
-     text-decoration:none; 
-     cursor:pointer;  
-     
+     text-decoration: none; 
+     cursor: pointer;  
 }
 
 .about-text h2{
@@ -34,6 +33,10 @@
     color: rgb(32, 25, 11);
 }
 
+.photo-team{
+    margin-right: 38px;
+    margin-left: 38px;
+}
 .team h2{
     text-align: center;
 }
@@ -43,5 +46,8 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .photo-team{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
