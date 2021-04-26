@@ -1,0 +1,292 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+/* @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap'); */
+
+body{
+    color:  #676363;
+    padding-top: 70px; 
+}
+
+.my-dark{
+    color: rgb(32, 25, 11);
+}
+
+.bg-nav {
+  background-color: #5E4B3C;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.bg-center{
+  text-align: center;  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav-item-modified{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link-custom{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.custom-hover a:hover{
+    color: rgb(24, 21, 17) !important;
+    font-weight: bold;
+}
+
+.active-custom a{
+    color: #DDC966 !important;
+}
+
+.active-custom-blue a{
+    /* color: #58B8D9 !important; */
+    font-weight: bold;
+}
+.location .cart{
+    font-size: 25px;
+}
+.max-width{
+    max-width: 1300px;
+    /* padding: 0 40px; */
+    margin: auto;
+    padding-left: 10px;
+}
+
+.text{
+
+    padding: 5px 5px 2px 8px;
+    color: #676363;
+    background-color:#FFFCF8;
+    font-size: 18px;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 50px;
+    color: rgb(32, 25, 11);
+}
+
+.homeImage{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 90%;
+}
+
+/* .order-button{
+    color: #fff;
+    background-color: #5E4B3C;
+    padding: 8px;
+    margin: 0 60px 20px 60px ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.home .max-width .order-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.home .max-width .order-button a:hover {
+    text-decoration: none;
+    color: #DDC966;
+    cursor: pointer;
+
+}
+
+.hours{
+    text-align: center;  
+    margin-top: 20px;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Specials content styling */
+
+.specials{
+    overflow: auto;
+    align-items: center;
+    color: rgb(32, 25, 11);
+    margin-bottom: 20px;
+}
+
+.specials h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.specials .specials-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.specials .max-width{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.specials .specials-content .specials-card{
+    
+    width: calc(33% - 10px);
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3 ease;
+    background-color:#fffcf8;
+    color: #676363;
+}
+
+.specials .specials-content .specials-card:hover{
+    background-color: #d6cec3;
+    color: #5E4B3C;
+}
+.specials .specials-content .specials-card .box {
+    transition: all 0.3 ease;
+}
+
+.specials .specials-content .specials-card:hover .box{
+    transition: scale(1.05);
+}
+.specials .specials-content .specials-card .text{
+    font-size: 18px;
+}
+
+.events h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #5E4B3C;
+}
+.custom-links a{
+    text-decoration: none;
+}
+
+a {
+    color: #DDC966;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: rgb(32, 25, 11); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+hr{
+    background-color: white !important;
+}
+.text-blue{
+     color: #58B8D9 !important ;
+ }
+.text-yellow{
+    color: #DDC966 !important;
+}
+
+
+.btn-yellow{
+    background-color: #DDC966  !important;
+}
+
+/* toTop button */
+#toTop {
+    padding: 9px 9px;
+    background-color: #58B8D9;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+    border-radius: 30px;
+}
+
+/* responsive media query start */
+@media (min-width: 991px){
+    .order {
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-right: 30px;
+        background-color: #58B8D9;
+        text-align: center;
+        padding: 8px;
+
+    }
+    .signin, .register {
+    border-radius: 5px;
+    background-color: #DDC966;
+    color: #59372A !important;
+    text-align: center;
+    padding: 8px;
+    margin-right: 7px;
+    }
+
+}
+@media(min-width: 575px){
+    .homeImage{
+        margin-left: 25px;
+    }
+    .order-button{
+        margin: 0 190px 20px 190px ;
+    }
+}
+
+@media (max-width: 947px){
+
+    .specials-card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .text{
+        justify-content: space-between;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 690px){
+    .specials-card{
+        width: 100%;
+    }
+    .text{
+        justify-content: space-between;
+        font-size: 20px;
+    }
+}
+
+
+/* @media (max-width: 425px){
+    .specials .max-width{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    } 
+} */
