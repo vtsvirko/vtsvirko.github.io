@@ -60,6 +60,15 @@ body{
     margin: auto;
     padding-left: 10px;
 }
+
+.text{
+
+    padding: 5px 5px 2px 8px;
+    color: #676363;
+    background-color:#FFFCF8;
+    font-size: 18px;
+
+}
 .home{
     display: flex;
     align-items: center;
@@ -75,7 +84,7 @@ body{
     width: 90%;
 }
 
-.order-button{
+/* .order-button{
     color: #fff;
     background-color: #5E4B3C;
     padding: 8px;
@@ -84,7 +93,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .home .max-width .order-button a {
     text-decoration: none;
     color: #fff;
@@ -111,7 +120,8 @@ body{
 .specials{
     overflow: auto;
     align-items: center;
-    color: rgb(32, 25, 11)
+    color: rgb(32, 25, 11);
+    margin-bottom: 20px;
 }
 
 .specials h2{
@@ -167,26 +177,12 @@ body{
     margin-bottom: 20px;
 }
 
-/* .order {
-    margin-left: 50px;
-    margin-right: 30px;
-}
-.order, .signin, .register {
-background-color: #c2bd95;
-text-align: center;
-padding: 8px;
-}
-.signin, .register{
-    margin-right: 7px;
-} */
-
 .text{
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     font-weight: 500;
 }
-
 
 .footer{
     background-color: #5E4B3C;
@@ -217,10 +213,10 @@ hr{
 }
 
 
-
 .btn-yellow{
     background-color: #DDC966  !important;
 }
+
 /* toTop button */
 #toTop {
     padding: 9px 9px;
@@ -253,11 +249,6 @@ hr{
     margin-right: 7px;
     }
 
-    /* .signin .register a:hover{
-        color: #58B8D9 !important;
-    } */
-
-
 }
 @media(min-width: 575px){
     .homeImage{
@@ -270,32 +261,32 @@ hr{
 
 @media (max-width: 947px){
 
-    .specials .specials-content .specials-card{
+    .specials-card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
 
     .text{
-        display: flex;
         justify-content: space-between;
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 18px;
     }
-    /* .order-button{
-        margin: 0 80px 20px 80px ;
-    } */
 }
 
 @media (max-width: 690px){
-    .specials .specials-content .specials-card{
+    .specials-card{
         width: 100%;
     }
-
+    .text{
+        justify-content: space-between;
+        font-size: 20px;
+    }
 }
-@media (max-width: 425px){
+
+
+/* @media (max-width: 425px){
     .specials .max-width{
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 10px;
     } 
-}
+} */
