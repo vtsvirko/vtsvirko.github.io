@@ -1,0 +1,70 @@
+.reg{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card input[type="email"],
+.card input[type="password"] {
+    border: 0;
+    background: #d4e5eb;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: 2px solid  #58B8D9;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: rgb(90, 81, 81);
+    border-radius: 8px;
+    transition: 0.25s;
+}
+
+.card h2 {
+    text-align: center;
+    color: rgb(90, 81, 81);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card input[type="email"]:focus,
+.card input[type="password"]:focus {
+    width: 300px;
+    border-color:   #58B8D9;
+}
+
+.card input[type="submit"] {
+    border: 0;
+    background: #fff5c4;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #DDC966;
+    padding: 10px 20px;
+    outline: none;
+    color: rgb(32, 25, 11);
+    border-radius: 8px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background:  #DDC966;
+}
+
+.forgot {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.reg span {
+    color: #f44336;
+    text-align: center;
+    display: block; 
+}
+
