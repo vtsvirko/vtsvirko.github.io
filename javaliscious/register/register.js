@@ -98,16 +98,18 @@ function login(){
     }
  
     else{
+        // window.location.replace("index.html");
         alert(email + " yor are login Now \n welcome to our website.");
 
         document.getElementById("se").value ="";
         document.getElementById("sp").value="";
         document.getElementById('login-error-password').innerHTML = "";
         document.getElementById('login-error-email').innerHTML = "";
+        window.location.replace("../index.html");
         return ;
+
+
     }
-
-
 }
 function forgot(){
     event.preventDefault();
