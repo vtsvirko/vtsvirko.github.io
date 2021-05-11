@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <section class="py-2">
+        <div class="row">
+            <div class="col-md6 text-center">
+                <h1 class="display-3 mt-3 pt5">
+                    Coffee Purchase
+                </h1>
+                    <p class="lead">Make your online purchase here for quicker 
+                        service. </br> So you can get in and out and on to the rest of your day.</p>
+                        <div class="col-md-6">
+                            <img src="/img/coffee.png" alt="" class="img-fluid">
+                        </div>
+                <form action="" method="POST">
+                    <script
+                        src="https:/checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_51IlG26JCX6EEDeQhDJT8v98W93diwSj0GnHBP7P6TztBcv7eOBBf7GpoXtEDOJlYCDMqCW8J1k2puutBAuwm3AwZ00PK3q5Scs"
+                        data-amount=".50"
+                        data-name="Coffee Purchase"
+                        data-description="Widget"
+                        data-image="/img/marketplace.png"
+                        data-locale="auto">
+                    </script>
+                </form>    
+            </div>
+        </div>
+    </section>
+    
+   
+</body>
+</html>
+
